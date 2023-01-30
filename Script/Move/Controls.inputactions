@@ -1,0 +1,496 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "84bf3382-27fd-4627-a8e6-61877cee1456",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "23aeda80-d628-47aa-b64f-21adc4ba2094",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "060757c1-2e42-4853-ba6f-0c5d6fd90ba2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Scrin",
+                    "type": "Button",
+                    "id": "8d5bce1a-3241-488f-80bf-7d0a16465fb0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cursor",
+                    "type": "Button",
+                    "id": "2426175c-aec6-40fe-9baa-b0425e3014cb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Reload",
+                    "type": "Button",
+                    "id": "5251330c-4581-47de-9d73-87b085ccc945",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "E",
+                    "type": "Button",
+                    "id": "e54469e4-de58-4265-a583-bd555ded8e71",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Button",
+                    "id": "bc1714b0-49d9-4446-90c1-4315e9229093",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Craft",
+                    "type": "Button",
+                    "id": "d8e63853-50df-48f8-a7a7-06e9c9ff3d9e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Esc",
+                    "type": "Button",
+                    "id": "2e6a99be-2629-41f6-9b51-55444bc45864",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Map",
+                    "type": "Button",
+                    "id": "c35a8efb-6793-4132-b32e-90e98237569e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "F",
+                    "type": "Button",
+                    "id": "93109d90-fe99-497c-a656-359563ca7d94",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "QSlot",
+                    "type": "Value",
+                    "id": "1546588e-f2a5-471e-9a79-57165270fa46",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3e35ab8a-2416-43f3-9220-70aeb6ef4ee6",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press(pressPoint=0.5,behavior=1)",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "82934f75-e158-4143-812c-62d90226c158",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "3d59f1b5-b6fc-4dd5-817f-bcca233113f5",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "060bd53b-904f-42d4-832a-65e81f4a6800",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "82d4dd1e-5a9b-427b-9c12-fe9100d451fd",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "0e6eb578-018c-438a-9b6b-e2e32049024c",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Arrow",
+                    "id": "1bba71d3-1f57-49be-b77d-9ae492f23214",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "74c4adad-b148-4e50-8605-2884e927f9cc",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "ca560e72-843c-4d4b-a8d1-a09cc79247fc",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "d3f9e12b-c792-413d-9976-7577da9a86c3",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "ea5560cb-eb18-4505-98e1-a5af2888d1c7",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "D-Pad",
+                    "id": "d57a4198-9e17-4776-a2a7-43ca025322e8",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "183d8947-3ba6-4d20-b39b-aef6232dcc72",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "b1acc6bc-0de5-4dc5-a471-85492ced0ab5",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "6bbbcf16-c57c-45f1-992b-6dc0ede45566",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "a06acd3f-85c3-4cac-883e-2d87951e4f04",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left Stick",
+                    "id": "8d4e349a-4be2-4dcb-a21c-8b1bd7630a6a",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "df4c3385-addc-473b-a68d-ec1b48c05d2b",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "fabe3019-c3eb-40db-8e7c-e32cff33adbe",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "5d56c250-f8b5-4c46-873e-6b8f0f319a27",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "0fbc3c11-224c-4a3d-b2f7-3ff0f9aa12b2",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "abe2b4eb-21d4-4419-887b-ceaf401c5a27",
+                    "path": "<Keyboard>/p",
+                    "interactions": "Press(pressPoint=0.5,behavior=1)",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Scrin",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4a1ee89-7083-4a06-8cd2-58a159a187e1",
+                    "path": "<Keyboard>/n",
+                    "interactions": "Press(pressPoint=0.5,behavior=1)",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Cursor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "407158c6-1a2d-4602-8e5d-e1187f2d6f52",
+                    "path": "<Keyboard>/r",
+                    "interactions": "Press(pressPoint=0.5,behavior=1)",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Reload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e3af6782-0be9-4c67-95c0-126db840e3f4",
+                    "path": "<Keyboard>/e",
+                    "interactions": "Press(pressPoint=0.5,behavior=1)",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "E",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aa3e2c9a-e05d-448f-b72a-8d8ed640da2d",
+                    "path": "<Keyboard>/i",
+                    "interactions": "Press(pressPoint=0.5,behavior=1)",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Inventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ae11b0df-7461-4cbd-b40d-f02eb6d7b50b",
+                    "path": "<Keyboard>/q",
+                    "interactions": "Press(pressPoint=0.5,behavior=1)",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Craft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df5d2cb6-7d9f-4bbc-937d-85f2863b472a",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Press(pressPoint=0.5,behavior=1)",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Esc",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "77f20c76-2440-4bd6-8427-367e5e4fbe36",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "Press(pressPoint=0.5,behavior=1)",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "Map",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ad3c66e7-1efb-4a89-957d-a9c17a94ab87",
+                    "path": "<Keyboard>/f",
+                    "interactions": "Press(pressPoint=0.5,behavior=1)",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "F",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "20e9222e-e7ce-433b-bf57-5ac782c2bbbd",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse And Keybards",
+                    "action": "QSlot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse And Keybards",
+            "bindingGroup": "Mouse And Keybards",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Mobail",
+            "bindingGroup": "Mobail",
+            "devices": []
+        },
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

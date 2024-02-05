@@ -1,4 +1,0 @@
-Материал Fix это материал который используют все модели Starve Neon
-Fix png это палитра из MagicaVoxel перенесите эту палитру в палитру внутри MagicaVoxel ;)
-
-Чтобы заспавнить персонажа - PlayerLocalController
